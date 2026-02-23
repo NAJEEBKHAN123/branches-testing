@@ -7,7 +7,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'projects', 'contact']
+      const sections = ['home', 'about', 'skills', 'projects', 'contact']
       const scrollPosition = window.scrollY + 100
 
       // Update scrolled state for navbar styling
@@ -44,6 +44,7 @@ const Navbar = () => {
   const navLinks = [
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About Us' },
+    { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
     { id: 'contact', label: 'Contact' },
   ]
